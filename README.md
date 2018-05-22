@@ -8,3 +8,10 @@
 ### Aula 1
 
 1. Primeira classe: `Hello, world!`
+
+* Mídias Sociais:
+  [Twitter](https://twitter.com/edsonparisotto/),
+  [Facebook](https://facebook.com/parisotto.com.br/),
+  [YouTube](https://www.youtube.com/user/edsonparisotto),
+  [Google+](https://plus.google.com/+edsonparisotto/posts),
+  [DeviantArt](https://parisotto.deviantart.com/).
