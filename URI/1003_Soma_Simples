@@ -1,0 +1,33 @@
+package net.parisotto.uri;
+import java.io.IOException;
+import java.util.Scanner;
+
+/**
+ * FONTE: www.urionlinejudge.com.br
+ * URI Online Judge | URI 1003 | Sequencial
+ * Soma Simples | Iniciante | Nível 2
+ * Adaptado por Neilor Tonin, URI  Brasil
+ * 
+ * Leia dois valores inteiros, no caso para variáveis A e B. 
+ * A seguir, calcule a soma entre elas e atribua à variável SOMA. 
+ * A seguir escrever o valor desta variável.
+ * 
+ * Entrada: O arquivo de entrada contém 2 valores inteiros.
+ * Saída: Imprima a variável SOMA. 
+ * 
+ * Exemplo de Entrada: 30 10
+ * Exemplo de Saída: SOMA = 40
+*/
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+       int A, B, SOMA;
+        
+       Scanner scan = new Scanner(System.in);
+       A = scan.nextInt();
+       B = scan.nextInt();
+       SOMA = A + B;
+       
+       System.out.println("SOMA = " + SOMA);
+    }
+}
