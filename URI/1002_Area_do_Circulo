@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.util.Scanner; 
 
 /**
- * FONTE: www.urionlinejudge.com.br
- * URI Online Judge | URI 1002 | Sequencial
  * Área do Círculo | Iniciante | Nível 5
+ * URI Online Judge | URI 1002 | Sequencial
  * Adaptado por Neilor Tonin, URI  Brasil
+ * FONTE: www.urionlinejudge.com.br
  * 
  * A fórmula para calcular a área de uma circunferência é: area = π . raio2. 
  * Considerando para este problema que π = 3.14159:
