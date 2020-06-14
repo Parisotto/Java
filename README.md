@@ -1,7 +1,7 @@
 # Java 
 *Copyright (C) 2001-2020 Edson Parisotto*
 
-## Exercícios para o curso de Java desde o básico ao avançado que ministro
+## Exercícios para o curso de Java desde o básico ao avançado que leciono
 * Códigos fonte do curso
 * Saiba mais sobre o curso no site [**Variável**](http://variavel.com.br/)
 
