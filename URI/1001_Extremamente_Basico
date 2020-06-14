@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.util.Scanner; 
 
 /**
- * FONTE: www.urionlinejudge.com.br
- * URI Online Judge | URI 1001 | Sequencial
  * Extremamente Básico | Iniciante | Nível 5
+ * URI Online Judge | URI 1001 | Sequencial
  * Adaptado por Neilor Tonin, URI  Brasil
+ * FONTE: www.urionlinejudge.com.br
  * 
  * Leia 2 valores inteiros e armazene-os nas variáveis A e B. 
  * Efetue a soma de A e B atribuindo o seu resultado na variável X. 
