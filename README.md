@@ -1,13 +1,13 @@
 # Java 
 *Copyright (C) 2001-2018 Edson Parisotto*
 
-## Java desde o básico ao avançado
+## Exercícios para o curso de Java desde o básico ao avançado que ministro
 * Códigos fonte do curso
 * Saiba mais sobre o curso no site [**Variável**](http://variavel.com.br/)
 
-### Aula 1
+### Exercícios resolvidos do site URI Online Judge
 
-1. Primeira classe: `Hello, world!`
+1. `Hello, world!`
 
 * Mídias Sociais:
   [Twitter](https://twitter.com/edsonparisotto/),
@@ -15,5 +15,3 @@
   [YouTube](https://www.youtube.com/user/edsonparisotto),
   [Google+](https://plus.google.com/+edsonparisotto/posts),
   [DeviantArt](https://parisotto.deviantart.com/).
-
-Testes
