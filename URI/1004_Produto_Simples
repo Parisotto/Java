@@ -3,10 +3,10 @@ import java.io.IOException;
 import java.util.Scanner; 
 
 /**
- * FONTE: www.urionlinejudge.com.br
- * URI Online Judge | URI 1004 | Sequencial
  * Produto Simples | Iniciante | Nível 1
+ * URI Online Judge | URI 1004 | Sequencial
  * Adaptado por Neilor Tonin, URI  Brasil
+ * FONTE: www.urionlinejudge.com.br
  * 
  * Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua 
  * esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
