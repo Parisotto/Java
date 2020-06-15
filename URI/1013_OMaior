@@ -1,0 +1,30 @@
+import java.io.IOException;
+import java.util.Scanner;
+/**
+URI Online Judge | 1013
+O Maior
+
+Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da 
+mensagem “eh o maior”. Utilize a fórmula: MariorAB = (a + b + abs(a - b)) / 2
+
+Entrada: O arquivo de entrada contém três valores inteiros.
+Saída: Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
+
+Exemplo de Entrada: 7 14 106
+Exemplo de Saída: 106 eh o maior
+ */
+public class Main {
+    public static void main(String[] args) throws IOException {
+        int A, B, C, MAIOR;
+        
+        Scanner scan = new Scanner(System.in);
+        A = scan.nextInt();
+        B = scan.nextInt();
+        C = scan.nextInt();
+        
+        MAIOR = (A + B + Math.abs(A - B)) / 2;
+        MAIOR = (MAIOR + C + Math.abs(MAIOR - C)) / 2;
+        
+        System.out.println(MAIOR + " eh o maior");
+    }
+}
