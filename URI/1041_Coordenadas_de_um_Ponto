@@ -1,0 +1,42 @@
+import java.io.IOException;
+import java.util.Scanner; 
+
+/**
+URI Online Judge | 1041
+Coordenadas de um Ponto
+
+Se o ponto estiver na origem, escreva a mensagem “Origem”.
+Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
+
+Entrada: A entrada contem as coordenadas de um ponto.
+Saída: A saída deve apresentar o quadrante em que o ponto se encontra.
+
+Exemplo de Entrada: 4.5 -2.2
+Exemplo de Saída: Q4
+ */
+ 
+public class Main {
+    public static void main(String[] args) throws IOException {
+        double x, y;
+        
+        Scanner scan = new Scanner(System.in);
+        x = scan.nextDouble();
+        y = scan.nextDouble();
+        
+        if(x > 0 && y > 0){
+            System.out.println("Q1");
+        }else if(x < 0 && y > 0){
+            System.out.println("Q2");
+        }else if(x < 0 && y < 0){
+            System.out.println("Q3");
+        }else if(x > 0 && y < 0){
+            System.out.println("Q4");
+        }else if (x == 0 && y == 0){
+            System.out.println("Origem");
+        }else if(x == 0 && y != 0){
+            System.out.println("Eixo Y");
+        }else if(x != 0 && y == 0){
+            System.out.println("Eixo X");
+        } 
+    }
+}
