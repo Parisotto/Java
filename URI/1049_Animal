@@ -1,0 +1,68 @@
+import java.io.IOException;
+import java.util.Scanner;
+/*
+Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o 
+esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes 
+foi escolhido, através das três palavras fornecidas.
+
+vertebrado      ave         mamifero        aguia
+                            onivoro         pomba
+                mamifero    onivoro         homem
+                            hervivoro       vaca
+invertebrado    inseto      hematofago      pulga
+                            herbivoro       lagarta
+                anelideo    hematofago      sanguessuga
+                            onivoro         minhoca
+
+Entrada: A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o 
+animal segundo a figura acima, com todas as letras minúsculas.
+
+Saída: Imprima o nome do animal correspondente à entrada fornecida.
+
+Exemplo de Entrada:
+vertebrado
+mamifero
+onivoro
+
+Exemplo de Saída: homem
+*/
+public class Main {
+    public static void main(String[] args) throws IOException {
+        String entrada1, entrada2, entrada3;
+        
+        Scanner scan = new Scanner(System.in);
+        entrada1 = scan.nextLine();
+        entrada2 = scan.nextLine();
+        entrada3 = scan.nextLine();
+        
+        if(entrada1.equals("vertebrado")){
+            if(entrada2.equals("ave")){
+                if(entrada3.equals("carnivoro")){
+                    System.out.println("aguia");
+                }else if(entrada3.equals("onivoro")){
+                    System.out.println("pomba");
+                }
+            }else if(entrada2.equals("mamifero")){
+                if(entrada3.equals("onivoro")){
+                    System.out.println("homem");
+                }else if(entrada3.equals("herbivoro")){
+                    System.out.println("vaca");
+                }
+            }
+        }else if(entrada1.equals("invertebrado")){
+            if(entrada2.equals("inseto")){
+                if(entrada3.equals("hematofago")){
+                    System.out.println("pulga");
+                }else if(entrada3.equals("herbivoro")){
+                    System.out.println("lagarta");
+                }
+            }else if(entrada2.equals("anelideo")){
+                if(entrada3.equals("hematofago")){
+                    System.out.println("sanguessuga");
+                }else if(entrada3.equals("onivoro")){
+                    System.out.println("minhoca");
+                }
+            }
+        }
+    }
+}
