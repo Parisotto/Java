@@ -1,0 +1,29 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+// 1065 - Pares entre Cinco Números 
+/*
+Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
+
+Entrada
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+Saída
+Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
+*/
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        double num;
+        int pares = 0;
+        Scanner scan = new Scanner(System.in);
+         
+        for(int i = 1; i <= 5; i++){
+            num = scan.nextDouble();
+            if(num % 2 == 0){
+                pares++;
+            }
+         }
+         System.out.printf("%d valores pares\n", pares);
+    }
+}
