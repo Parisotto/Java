@@ -1,0 +1,32 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+// Problema: 1064 - Positivos e Média
+/*
+Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
+
+Entrada
+A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
+
+Saída
+O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
+*/
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        double num, media = 0;
+        int positivo = 0;
+        Scanner scan = new Scanner(System.in);
+         
+        for(int i = 1;i <= 6; i++){
+            num = scan.nextDouble();
+            if(num > 0){
+                positivo++;
+                media += num;
+            }
+         }
+         media /= positivo;
+         System.out.printf("%d valores positivos\n", positivo);
+         System.out.printf("%.1f\n", media);
+    }
+}
