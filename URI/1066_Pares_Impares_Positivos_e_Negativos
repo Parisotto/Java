@@ -1,0 +1,36 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+// 1066 Pares, Ímpares, Positivos e Negativos
+/*
+Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
+
+Entrada
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+Saída
+Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
+*/
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        int par = 0, positivo = 0, negativo = 0, numero;
+        Scanner scan = new Scanner(System.in);
+        
+        for(int i = 1; i <= 5; i++){
+            numero = scan.nextInt();
+            if(numero > 0){
+                positivo++;
+            }else if(numero < 0){
+                negativo++;
+            }
+            if(numero % 2 == 0){
+                par++;
+            }
+        }
+        System.out.printf("%d valor(es) par(es)%n", par);
+        System.out.printf("%d valor(es) impar(es)%n", 5 - par);
+        System.out.printf("%d valor(es) positivo(s)%n", positivo);
+        System.out.printf("%d valor(es) negativo(s)%n", negativo);
+    }
+}
