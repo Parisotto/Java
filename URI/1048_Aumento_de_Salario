@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
-/*
+
+/**
 URI Online Judge | 1048
 Aumento de Salário
 
@@ -29,6 +30,7 @@ Novo salario: 460.00
 Reajuste ganho: 60.00
 Em percentual: 15 %
 */
+
 public class Main {
     public static void main(String[] args) throws IOException {
         double salario, percentual;
