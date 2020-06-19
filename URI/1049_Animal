@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
-/*
+
+/**
 Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o 
 esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes 
 foi escolhido, através das três palavras fornecidas.
@@ -26,6 +27,7 @@ onivoro
 
 Exemplo de Saída: homem
 */
+
 public class Main {
     public static void main(String[] args) throws IOException {
         String entrada1, entrada2, entrada3;
