@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
-/*
+
+/**
 URI Online Judge | 1047
 Tempo de Jogo com Minutos
 
@@ -20,6 +21,7 @@ Exemplo de Saída: O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)
 Exemplo de Entrada: 7 10 8 9
 Exemplo de Saída: O JOGO DUROU 0 HORA(S) E 59 MINUTO(S)
 */
+
 public class Main {
     public static void main(String[] args) throws IOException {
         int horaInicial, minutoInicial, horaFinal, minutoFinal, minutosTotal;
