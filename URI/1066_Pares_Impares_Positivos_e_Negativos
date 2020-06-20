@@ -1,9 +1,11 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+URI Online Judge | 1066
+Pares, Ímpares, Positivos e Negativos
 
-/*
-1066 Pares, Ímpares, Positivos e NegativosLeia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
+Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
 
 Entrada
 O arquivo de entrada contém 5 valores inteiros quaisquer.
